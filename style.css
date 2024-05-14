@@ -1,0 +1,113 @@
+nav {
+    display: flex;
+    flex-direction: row;
+justify-content: space-between;
+}
+h2 {
+    font-size: 30px;  
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    font-size: 15px;
+    color: darkgray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul {
+    list-style: none;
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    color: darkgray;
+}
+.home {
+    color: #F2CD5C;
+}
+ section {
+    display: flex;
+    flex-direction: row;
+ }
+ .fp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ .vid {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+    gap: 25px;
+    padding-top: 20px;
+   
+    
+ }
+ .dep {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    
+ }
+ .img02 {
+    position: relative;
+    left: 80%;
+ }
+ .metp {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 9%;
+    text-align: right;
+ }
+
+
+ 
+ b{
+        color: #9c9a9a;
+      }
+
+li{
+    cursor: pointer;
+}
+
+.wow h2 {
+    margin-left: 22px;
+   }
+   
+   .wow p {
+    margin-left: 22px; 
+   }
+
+   body 
+   {
+    display: flex;
+    justify-content: center;
+}
+
+.teste {
+    padding-top: 60px;
+}
+
+.au {
+font-family: 'Times New Roman', Times, serif;
+color: black;
+}
+
+span {
+    color: gray;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.metp h2 {
+    margin-left: 670px;
+    padding-bottom: -2500px;
+
+}
+
+.metp p{
+    margin-left: 340px;
+}

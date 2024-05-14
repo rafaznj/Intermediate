@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        body {
+      background-image: url('imagens/papel-de-parede-pilates-exercicio-saude-academia-gg410-adesivo-luta.webp');
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+        .box{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 15px;
+            border-radius: 15px;
+            width: 25%;
+        }
+
+        input[type="submit"] {
+            background-color: #077fe0;
+            color: white;
+            padding: 20px 133px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+    <form action="">
+        <fieldset>
+            <legend><b>INSCRIÇÃO PARA AULAS ONLINE</b></legend>
+            <br>
+            <div class="inputbox">
+                <label for="name">Nome completo</label>
+                <input type="text" name="name" id="name" class="inputuser" required>
+            </div>
+            
+            <div class="inputbox">
+                <br>
+                <label for="data">Data de nascimento</label>
+                <input type="date" name="data" id="data" class="inputuser" required>
+            </div>
+            
+            <div class="inputbox">
+                <br>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" class="inputuser" required>
+            </div>
+            
+            <div class="inputbox">
+                <br>
+                <label for="endereço">Endereço</label>
+                <input type="text" name="endereço" id="endereço" class="inputuser" required>
+            </div>
+
+            <div class="inputbox">
+                <p>Horário de preferência:</p>
+                <input type="radio" name="horario" id="nove" value="09:00" required>
+                <label for="nove">09:00</label>
+                <input type="radio" name="horario" id="onze" value="11:00" required>
+                <label for="onze">11:00</label>
+                <input type="radio" name="horario" id="quinze" value="15:00" required>
+                <label for="quinze">15:00</label>
+                <input type="radio" name="horario" id="dezessete" value="17:00" required>
+                <label for="dezessete">17:00</label>
+                <input type="radio" name="horario" id="dezenove" value="19:00" required>
+                <label for="dezenove">19:00</label>
+                <input type="radio" name="horario" id="vinteum" value="21:00" required>
+                <label for="vinteum">21:00</label>
+            </div>
+
+            <div>
+                <br>
+                <label for="curso">Curso</label>
+                <select id="curso" name="curso" required>
+                <option value="Pilates funcional">Pilates funcional</option>
+                <option value="Pilates fisioterápico">Pilates fisioterápico</option>
+                <option value="Neo pilates">Neo pilates</option>    
+                </select>
+            </div>
+            
+
+        </fieldset>
+        <br>
+            <input type="submit" value="Inscrever-se">
+    </form>
+</div>
+</body>
+</html>
