@@ -7,6 +7,8 @@
 
 #### Ele fornece aos visitantes informações sobre a empresa, seus serviços, blog, formas de contato e etc.
 
+<img src="https://github.com/rafaznj/global_pilates/blob/a8bab0a990a33a532083eb3830bc74979e22f348/global%20pilates.png" alt="global pilates" width="644" height="328">
+
 # Estrutura
 
 #### ***index.html***: O arquivo HTML principal que contém a estrutura principal do site e seu conteúdo.
