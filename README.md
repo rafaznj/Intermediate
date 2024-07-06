@@ -1,5 +1,5 @@
 # Global Pilates
-#### Este repositório contém o código-fonte do site, desenvolvido com HTML e CSS básico.
+#### Site desenvolvido com HTML e CSS básico.
 
 # Visão Geral
 
